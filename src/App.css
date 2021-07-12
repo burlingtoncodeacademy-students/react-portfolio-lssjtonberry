@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*beginning of my CSS edits*/
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#navbar {
+  display: flex;
+  justify-content: center;
+}
+
+/*Home page text fades-in due to "first" animation*/
+#hometext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  animation-name: first;
+  animation-duration: 4s;
+  animation-delay: 0.5ms;
+  color: rebeccapurple;
+}
+
+@keyframes first {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+
+  font-size: 120%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#hobbies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-large;
+  margin-top: 10%;
+}
+
+#hobbiescloser {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  position: fixed;
+  bottom: 120px;
+  left: 42%;
+  color: crimson;
+  font-size: xx-large;
+}
+
+#projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+/*About Me text fades in due to first animation*/
+#infomatic {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8%;
+  font-size: xx-large;
+  animation-name: first;
+  animation-duration: 4s;
+  animation-delay: 0.5ms;
+  color: rebeccapurple;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8%;
+  color: rebeccapurple;
+}
