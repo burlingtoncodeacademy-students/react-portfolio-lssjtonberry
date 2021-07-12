@@ -13,7 +13,7 @@ const AboutMe = () => {
         personal bubbles. How you might ask? With the POWER OF THE INTERWEBS.
         One day I'd like to build webpages and maybe even games to help broaden
         people's minds; give them realistic tools to help guide understanding of
-        different cultures outside in ways that speak to their own
+        different cultures in ways that speak to their own
         experiences. Not only this, but I want people have fun while doing it! {" "}
       </p>
     </div>
