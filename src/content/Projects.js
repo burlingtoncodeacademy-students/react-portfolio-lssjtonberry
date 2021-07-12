@@ -49,7 +49,7 @@ function Projects() {
           </li>
             <li><a href="https://github.com/burlingtoncodeacademy-students/zorkington-lssjtonberry">Zorkington</a></li>
             <li><a href="https://github.com/burlingtoncodeacademy-students/tic-tac-toe-lssjtonberry">Tic Tac Toe</a></li>
-            <li>And Even this Portfolio</li>
+            <li><a href="https://github.com/burlingtoncodeacademy-students/react-portfolio-lssjtonberry.git">And this Portfolio too!</li>
           </Modal.Content>
           <Modal.Actions>
             <Button
