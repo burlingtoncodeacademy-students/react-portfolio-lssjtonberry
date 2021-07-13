@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./server.css";
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import Home from "./content/Home";
 import AboutMe from "./content/AboutMe";
@@ -57,9 +57,10 @@ const NotFound = () => {
   );
 };
 
-function App() {
+function Server() {
   return (
-    /*Components of React Router. BrowserRouter contains all the other components Route renders some UI when its path matches the current URL. Switch is used to render only the first route that matches the location rather than rendering all matching routes.*/
+    /*Components of React Router. BrowserRouter contains all the other components. Route renders some UI when its path matches the current URL. Switch is used to render only the first route that matches the location rather than rendering all matching routes.*/
+    
     <BrowserRouter>
       <NavBar />
       <Switch>
@@ -76,4 +77,4 @@ function App() {
   );
 }
 
-export default App;
+export default Server;
