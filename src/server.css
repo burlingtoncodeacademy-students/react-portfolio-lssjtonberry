@@ -91,6 +91,9 @@
   align-items: center;
   justify-content: space-between;
   font-size: x-large;
+  animation-name: first;
+  animation-duration: 4s;
+  animation-delay: 0.5ms;
   margin-top: 10%;
 }
 
@@ -131,3 +134,4 @@
   margin-top: 8%;
   color: rebeccapurple;
 }
+

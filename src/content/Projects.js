@@ -29,12 +29,14 @@ function Projects() {
             <li>Guess the Number</li>
             <li>Zorkington</li>
             <li>Tic Tac Toe</li>
+            <li>Maps</li>
             <li>And Even this Portfolio</li>
+            
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
           <Button onClick={() => setSecondOpen(true)} primary>
-            Click Here to Check Out The GitHub links to each project <Icon name='right chevron' />
+            Click Here to Check Out Their Github Links <Icon name='right chevron' />
           </Button>
         </Modal.Actions>
         {/*Second Modal Button*/}
