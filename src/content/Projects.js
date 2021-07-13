@@ -45,11 +45,13 @@ function Projects() {
         >
           <Modal.Header>Project Links</Modal.Header>
           <Modal.Content>
+            <div>
           <li><a href="https://github.com/burlingtoncodeacademy-students/guess-the-number-lssjtonberry">Guess The Number</a>
           </li>
             <li><a href="https://github.com/burlingtoncodeacademy-students/zorkington-lssjtonberry">Zorkington</a></li>
             <li><a href="https://github.com/burlingtoncodeacademy-students/tic-tac-toe-lssjtonberry">Tic Tac Toe</a></li>
-            <li><a href="https://github.com/burlingtoncodeacademy-students/react-portfolio-lssjtonberry.git">And this Portfolio too!</li>
+            <li><a href="https://github.com/burlingtoncodeacademy-students/react-portfolio-lssjtonberry.git">And this Portfolio too!</a></li>
+              </div>
           </Modal.Content>
           <Modal.Actions>
             <Button
