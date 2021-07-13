@@ -25,11 +25,10 @@ function Projects() {
           </div>
           <Modal.Description>
             <header font-size="xx-large">Here You'll Find A List of All My Current Projects.</header>
-            <h2>As of 7/11/2021 all projects are works in progress</h2>
+            <h2>As of 7/13/2021 all projects are works in progress</h2>
             <li>Guess the Number</li>
             <li>Zorkington</li>
             <li>Tic Tac Toe</li>
-            <li>Maps</li>
             <li>And Even this Portfolio</li>
             
           </Modal.Description>
