@@ -4,7 +4,7 @@ import Button from '@material-ui/core/Button';
 
 const NavBar = () => {
     return <div id ="navbar">
-      {/*Each button links to their corresponding pages as per a set path. Link component is used to make links to different routes and allow for navigation around my app. Works like an <a> tag.*/}
+      {/*Link is your replacement for anchor tags.*/}
       <Link to="/"><Button variant="contained" color="primary">
       Home
     </Button></Link>

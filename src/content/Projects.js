@@ -9,7 +9,7 @@ function Projects() {
 
   return (
     <div id="projects">
-      {/*First Modal Button*/}
+      {/*First Modal Button. Opens first modal when clicked*/}
     <>
       <Button onClick={() => setFirstOpen(true)}>Check Out Some of My Projects!</Button>
 
@@ -34,6 +34,7 @@ function Projects() {
           </Modal.Description>
         </Modal.Content>
         <Modal.Actions>
+          {/*opens second modal*/}
           <Button onClick={() => setSecondOpen(true)} primary>
             Click Here to Check Out Their Github Links <Icon name='right chevron' />
           </Button>
@@ -46,6 +47,7 @@ function Projects() {
         >
           <Modal.Header>Project Links</Modal.Header>
           <Modal.Content>
+            {/*lists anchor tags of each project listed*/}
             <div>
           <li><a href="https://github.com/burlingtoncodeacademy-students/guess-the-number-lssjtonberry">Guess The Number</a>
           </li>
@@ -55,6 +57,7 @@ function Projects() {
               </div>
           </Modal.Content>
           <Modal.Actions>
+            {/*closes both modals*/}
             <Button
               icon='check'
               content='All Done'

@@ -11,6 +11,7 @@ import NavBar from "./components/NavBar";
 import Button from "@material-ui/core/Button";
 
 const Footer = () => {
+  /*Linked buttons to direct to given pathways. Ex: linkpath /aboutme will(if clicked), send you to AboutMe section of portfolio*/
   return (
     <div id="footer">
       <Link to="/">
@@ -59,11 +60,12 @@ const NotFound = () => {
 
 function Server() {
   return (
-    /*Components of React Router. BrowserRouter contains all the other components. Route renders some UI when its path matches the current URL. Switch is used to render only the first route that matches the location rather than rendering all matching routes.*/
-    
+    /*BrowserRouter is the router implementation for web browsers*/ 
     <BrowserRouter>
       <NavBar />
+      {/*Switch returns only the first matching route rather than all matching routes.*/}
       <Switch>
+        {/*Route is the conditionally shown component based on matching a path to a URL.*/}
         <Route exact path="/" component={Home} />
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/projects" component={Projects} />
