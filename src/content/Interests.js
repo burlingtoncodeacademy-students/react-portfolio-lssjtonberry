@@ -10,7 +10,7 @@ const Interests = () => (
     <Image src={"https://clipartmag.com/images/hike-clipart-20.jpg"} size='medium' verticalAlign='middle' />{' '}
     <span>Hiking</span>
     <Divider />
-    <Image src={"https://images.all-free-download.com/images/graphiclarge/hiker_hiking_clip_art_15667.jpg"} size='medium' verticalAlign='bottom' />{' '}
+    <Image src={"https://openclipart.org/image/800px/271689"} size='medium' verticalAlign='bottom' />{' '}
     <span>Drawing</span>
     <p id="hobbiescloser">And Many More!</p>
   </div>
