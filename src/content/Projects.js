@@ -25,9 +25,9 @@ function Projects() {
           </div>
           <Modal.Description>
             <header font-size="xx-large">Here You'll Find A List of All My Current Projects.</header>
-            <h2>As of 7/13/2021 all projects are works in progress</h2>
+            <h2>As of 7/19/2021 all projects are works in progress</h2>
             <li>Guess the Number</li>
-            <li>Zorkington</li>
+            <li>Yelpington</li>
             <li>Tic Tac Toe</li>
             <li>And Even this Portfolio</li>
             
@@ -51,7 +51,7 @@ function Projects() {
             <div>
           <li><a href="https://github.com/burlingtoncodeacademy-students/guess-the-number-lssjtonberry">Guess The Number</a>
           </li>
-            <li><a href="https://github.com/burlingtoncodeacademy-students/zorkington-lssjtonberry">Zorkington</a></li>
+            <li><a href="https://github.com/burlingtoncodeacademy-students/yelpington-lssjtonberry">Yelpington</a></li>
             <li><a href="https://github.com/burlingtoncodeacademy-students/tic-tac-toe-lssjtonberry">Tic Tac Toe</a></li>
             <li><a href="https://github.com/burlingtoncodeacademy-students/react-portfolio-lssjtonberry.git">And this Portfolio too!</a></li>
               </div>
