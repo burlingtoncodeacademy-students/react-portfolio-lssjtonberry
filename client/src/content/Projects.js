@@ -26,7 +26,7 @@ function Projects() {
           <Modal.Description>
             <header font-size="xx-large">Here You'll Find A List of All My Current Projects.</header>
             <h2>As of 9/3/2021 all projects are works in progress</h2>
-            <li>OutMaine's Binder Automation Program(Co-Creater alongside a fabulous team :D)</li>
+            <li>OutMaine's Binder Automation Program(co-creator alongside a fabulous team :D)</li>
             <li>Guess the Number</li>
             <li>Yelpington</li>
             <li>Tic Tac Toe</li>
