@@ -71,7 +71,7 @@ function WorkHistory() {
               <li>I want to use my knowledge of Software Development to help people.</li>
               <li>I use Javascript to help practitioners to construct digital solutions based off user given data that work just for YOU </li>
               <li>I use HTML and CSS to take my Javascript to the NEXT LEVEL! I build easily accessible and esthetically pleasing websites.</li>
-              <li>Eventually...I'll also use React Native and Swift to accomodate those who prefer mobile applications from both the IOS App and Google Play Store<br /> </li>
+              <li>Eventually...I'll also use Kotlin and Swift to accomodate those who prefer mobile applications from both the IOS App and Google Play Store<br /> </li>
               <a href='imgs/Resume.pdf' download>Check Out My Resume for Yourself!</a>
             </Modal.Content>
             <Modal.Actions>
